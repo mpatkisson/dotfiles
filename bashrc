@@ -10,3 +10,4 @@ fi
 
 # User specific aliases and functions
 alias vi=vim
+alias ls='ls -F --color=never'

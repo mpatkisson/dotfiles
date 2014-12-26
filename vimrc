@@ -128,6 +128,9 @@ set pastetoggle=<F11>
 " Place a vertical guideline at 80 columns
 set colorcolumn=80
 
+" Show netrw in tree mode.
+let g:netrw_liststyle=3
+
 "------------------------------------------------------------
 " Indentation options {{{1
 "
