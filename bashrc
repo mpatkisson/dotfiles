@@ -13,4 +13,4 @@ alias vi=vim
 alias ls='ls -F --color=never'
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/home/mpatki01/.gvm/bin/gvm-init.sh" ]] && source "/home/mpatki01/.gvm/bin/gvm-init.sh"
+[[ -s "~/.gvm/bin/gvm-init.sh" ]] && source "~/.gvm/bin/gvm-init.sh"

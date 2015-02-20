@@ -12,4 +12,4 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 export PATH
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/home/mpatki01/.gvm/bin/gvm-init.sh" ]] && source "/home/mpatki01/.gvm/bin/gvm-init.sh"
+[[ -s "~/.gvm/bin/gvm-init.sh" ]] && source "~/.gvm/bin/gvm-init.sh"
