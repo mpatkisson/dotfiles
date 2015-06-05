@@ -19,3 +19,8 @@ if [ -L $HOME/.vimrc ]; then
     rm ~/.vimrc
 fi
 ln -s ${PWD}/vimrc ~/.vimrc
+
+if [ -L $HOME/.git-prompt.sh ]; then 
+    rm ~/.git-prompt.sh
+fi
+ln -s ${PWD}/git-prompt.sh ~/.git-prompt.sh

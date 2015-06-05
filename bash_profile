@@ -4,6 +4,9 @@
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
+if [ -L ~/.bashrc ]; then
+	. ~/.bashrc
+fi
 
 # User specific environment and startup programs
 
